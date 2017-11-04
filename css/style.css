@@ -16,19 +16,19 @@
 }
 @font-face {
   font-family: 'PT Sans Narrow Web Regular';
-  src: url("/font/PT_Sans_Narrow/PT_Sans-Narrow-Web-Regular.ttf") format("truetype");
+  src: url("../font/PT_Sans_Narrow/PT_Sans-Narrow-Web-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: 'PT Sans Narrow Web Bold';
-  src: url("/font/PT_Sans_Narrow/PT_Sans-Narrow-Web-Bold.ttf") format("truetype");
+  src: url("../font/PT_Sans_Narrow/PT_Sans-Narrow-Web-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: 'pfbeausanspro-bold';
-  src: url("/font/pfbeausanspro/pfbeausanspro-bold.ttf") format("truetype");
+  src: url("../font/pfbeausanspro/pfbeausanspro-bold.ttf") format("truetype");
 }
 @font-face {
   font-family: 'pfbeausanspro-thin';
-  src: url("/font/pfbeausanspro/pfbeausanspro-thin.ttf") format("truetype");
+  src: url("../font/pfbeausanspro/pfbeausanspro-thin.ttf") format("truetype");
 }
 .button {
   color: #fff;
