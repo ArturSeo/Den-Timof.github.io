@@ -2,7 +2,7 @@ $(window).load(function () {
     $('.flexslider').flexslider({
         animation: "slide",
         animationLoop: true,
-        itemWidth: 565,
+        itemWidth: 480,
         itemMargin: 15
     });
 
