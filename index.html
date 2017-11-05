@@ -7,8 +7,15 @@
     <link rel="stylesheet" href="css/libs.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <title>Mazali - Fast food cafe almaty</title>
+    <script>
+      if (screen.width <= '767') {
+           alert('Сайт не поддерживает разметку для мобильных устройств. Зайдите, пожалуйста, с устройства разрешением экрана побольше! Например, с планшета или компьютера.');
+           document.getElementById("body").style.display = 'none';
+      }
+      
+    </script>
   </head>
-  <body class="loading">
+  <body class="loading" id="body">
     <div class="modal fade" id="order">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -795,7 +802,7 @@
       <div class="container-main">
         <div class="reviews__caption">
           <div class="container-2">
-            <div class="caption-r"><img src="img/reviews-icon.png" alt=""/>
+            <div class="caption-r"><img src="img/reviews/reviews-icon.png" alt=""/>
               <p>Отзывы</p>
             </div>
           </div>

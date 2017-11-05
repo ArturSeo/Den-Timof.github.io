@@ -11,4 +11,6 @@ $(window).load(function () {
         animationLoop: true,
         itemWidth: 330
     });
+
+
 });
