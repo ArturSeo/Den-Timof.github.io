@@ -1381,12 +1381,6 @@
 }
 .footer {
   background-color: #f1f1f1;
-  padding: 20px 0;
-}
-@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
-  .footer {
-    padding: 20px;
-  }
 }
 .footer > * {
   display: -ms-flexbox;
@@ -1395,9 +1389,11 @@
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
+  padding: 20px 100px;
 }
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
   .footer > * {
+    padding: 20px;
     max-width: 830px;
   }
 }
@@ -1447,6 +1443,7 @@
   display: flex;
   font-family: 'PT Sans Narrow Web Regular';
   font-size: 14pt;
+  margin: 10px 0;
 }
 .footer .text-f .text-f__corp p {
   display: block;
