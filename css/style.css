@@ -233,7 +233,6 @@
   margin-left: 5px;
 }
 .new-menu {
-  background-color: #f3f3f3;
   height: 683px;
   overflow: hidden;
   position: relative;
@@ -255,7 +254,7 @@
 .new-menu .doner-2 {
   position: absolute;
   top: 310px;
-  left: 282px;
+  left: 284px;
   z-index: 20;
 }
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
@@ -267,6 +266,7 @@
 .new-menu .taste {
   position: absolute;
   top: 0;
+  z-index: 15;
   right: 98px;
 }
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
@@ -289,6 +289,7 @@
 .new-menu .new-menu__text {
   position: absolute;
   top: 35px;
+  z-index: 20;
   left: 137px;
 }
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
@@ -550,6 +551,8 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
 }
 @media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
   .our-menu .our-menu__body > * {
@@ -1257,12 +1260,7 @@
 .review .review__thumbnail {
   overflow: hidden;
   height: 140px;
-  width: 150px;
-}
-@media only screen and (orientation: portrait) and (min-width: 768px) and (max-width: 991px) {
-  .review .review__thumbnail {
-    width: 220px;
-  }
+  width: 220px;
 }
 .review .review__thumbnail img {
   position: relative;
