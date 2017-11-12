@@ -9,5 +9,14 @@ $(window).load(function () {
         $( "#tabs-girl" ).tabs({
             active: 0
         });
+        $( "#tabs-boy" ).tabs({
+            active: 0
+        });
+        $( "#tabs-newborns" ).tabs({
+            active: 0
+        });
+        $( "#tabs-accessories" ).tabs({
+            active: 0
+        });
     } );
 });

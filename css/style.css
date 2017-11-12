@@ -209,6 +209,67 @@ body .footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.tabs-product .tabs-container {
+  position: relative;
+}
+.tabs-product .tabs-container .tabs-button-up {
+  position: absolute;
+  bottom: 0;
+  left: -70px;
+  bottom: 70px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/arrow_up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid #c6c6c6;
+}
+.tabs-product .tabs-container .tabs-button-up::after {
+  content: 'Наверх';
+  position: relative;
+  bottom: -60px;
+  left: -5px;
+}
+.tabs-product .tabs-container .tabs-button-up:hover {
+  text-decoration: none;
+  color: #cd2767;
+  border: 1px solid #cd2767;
+}
+.tabs-product .tabs-container .tabs-button-yet {
+  position: absolute;
+  bottom: -50px;
+  left: 320px;
+  width: 170px;
+  height: 50px;
+  text-transform: uppercase;
+  font-size: 27px;
+  border: 1px solid #c6c6c6;
+}
+.tabs-product .tabs-container .tabs-button-yet:hover {
+  color: #cd2767;
+  background-color: #ebebeb;
+  border: 1px solid #cd2767;
+}
+.tabs-product .tabs-container .tabs-body .product {
+  margin: 0 15px 30px !important;
+  width: 237px !important;
+  height: 422px !important;
+}
+.tabs-product .tabs-container .tabs-body .product .product__thumb .product__content {
+  top: 20%;
+}
+.tabs-product .tabs-container .tabs-body .product .product__thumb .product__content p {
+  font-size: 14px;
+}
+.tabs-product .tabs-container .tabs-body .product .product__thumb .product__like {
+  bottom: 15%;
+}
+.tabs-product .tabs-container .tabs-body .product .product__thumb .product__like .like-text {
+  font-size: 16px;
+}
+.tabs-product .tabs-container .tabs-body .product .product__title {
+  font-size: 20px;
+}
 .product {
   background-color: #fff;
   position: relative;
@@ -666,7 +727,7 @@ body .footer {
       flex-direction: column;
   -ms-flex-align: center;
       align-items: center;
-  background-image: url("../img/discounts-bg.png");
+  background-image: url("../img/discounts/discounts-bg.png");
   background-position: 45% center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -874,6 +935,8 @@ body .footer {
 .boy {
   display: block;
   background-color: #ebebeb;
+  padding-bottom: 90px;
+  font-family: 'OpenSans-Regular';
 }
 .catalog {
   background-image: url("../img/catalog/catalog-bg.png");
@@ -932,6 +995,8 @@ body .footer {
 .newborns {
   display: block;
   background-color: #ebebeb;
+  padding-bottom: 90px;
+  font-family: 'OpenSans-Regular';
 }
 .insta {
   display: block;
@@ -986,6 +1051,8 @@ body .footer {
 .accessories {
   display: block;
   background-color: #ebebeb;
+  padding-bottom: 90px;
+  font-family: 'OpenSans-Regular';
 }
 .quality {
   padding: 20px 0;
