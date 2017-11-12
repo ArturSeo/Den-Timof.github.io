@@ -5,6 +5,7 @@ $(window).load(function () {
         itemWidth: 301,
         itemMargin: 82
     });
+
     $( function() {
         $( "#tabs-girl" ).tabs({
             active: 0
