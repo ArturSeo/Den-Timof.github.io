@@ -2,15 +2,12 @@ $(window).load(function () {
     $('.flexslider').flexslider({
         animation: "slide",
         animationLoop: true,
-        itemWidth: 480,
-        itemMargin: 15
+        itemWidth: 301,
+        itemMargin: 82
     });
-
-    $('.flexslider-drink').flexslider({
-        animation: "slide",
-        animationLoop: true,
-        itemWidth: 330
-    });
-
-
+    $( function() {
+        $( "#tabs-girl" ).tabs({
+            active: 0
+        });
+    } );
 });
