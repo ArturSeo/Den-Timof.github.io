@@ -156,14 +156,14 @@ body .footer {
   text-align: center;
   font-size: 37px;
 }
-.caption-section.cnsn_black div:nth-child(1) p {
+.caption-section.cnsn_black .caption-1 p {
   color: #000;
   font-family: 'FrizQuadrataC';
   text-transform: uppercase;
   text-align: center;
   font-size: 38pt;
 }
-.caption-section.cnsn_black div:nth-child(2) {
+.caption-section.cnsn_black .caption-line {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -172,7 +172,7 @@ body .footer {
       align-items: center;
   margin: 20px 0;
 }
-.caption-section.cnsn_black div:nth-child(3) p {
+.caption-section.cnsn_black .caption-desc p {
   color: #000;
   font-family: 'Vivaldi Script';
   text-align: center;
@@ -181,6 +181,7 @@ body .footer {
 .tabs-product {
   display: -ms-flexbox;
   display: flex;
+  padding-bottom: 50px;
 }
 .tabs-product ul,
 .tabs-product select {
@@ -220,6 +221,15 @@ body .footer {
 .tabs-product select option.ui-state-ative a {
   text-decoration: none;
   color: #cd2767;
+}
+.tabs-product ul .tabs-button-up-inline,
+.tabs-product select .tabs-button-up-inline {
+  width: 30px;
+  margin-right: 10px;
+  height: 30px;
+  background-image: url("../img/arrow_up.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 .tabs-product .ui-tabs-panel {
   display: -ms-flexbox;
@@ -1266,7 +1276,7 @@ body .footer {
     max-width: 1028px;
     padding: 0;
   }
-  .cnsn_black {
+  .cnsn_black div {
     display: none;
   }
   body .header {
@@ -1343,10 +1353,10 @@ body .footer {
   .caption-section.cnsn_white div:nth-child(2) {
     display: none;
   }
-  .caption-section.cnsn_black div:nth-child(1) p {
+  .caption-section.cnsn_black .caption-1 p {
     font-family: 'FrizQuadrataC';
   }
-  .caption-section.cnsn_black div:nth-child(2) {
+  .caption-section.cnsn_black .caption-line {
     display: none;
   }
   .tabs-product {
@@ -1367,6 +1377,8 @@ body .footer {
     margin-bottom: 40px;
     -ms-flex-align: center;
         align-items: center;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
     padding: 15px;
   }
   .tabs-product ul li,
@@ -1694,7 +1706,7 @@ body .footer {
     font-size: 14px;
   }
   .popular {
-    padding: 0;
+    padding: 20px 0 0 0;
   }
   .popular .caption-section .caption-1 p {
     font-size: 26px !important;
@@ -1806,6 +1818,10 @@ body .footer {
 }
 @media only screen and (min-width: 1029px) {
   .tabs-product .ul-mob {
+    display: none;
+  }
+  .tabs-product ul .tabs-button-up-inline,
+  .tabs-product select .tabs-button-up-inline {
     display: none;
   }
   .product:hover {

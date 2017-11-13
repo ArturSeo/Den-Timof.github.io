@@ -79,8 +79,8 @@
     </div>
     <div class="collection">
       <div class="container">
-        <div class="caption-section cnsn_black">
-          <div class="caption-1"><a name="top"></a>
+        <div class="caption-section cnsn_black"><a name="top"></a>
+          <div class="caption-1">
             <p>Коллекция</p>
           </div>
           <div class="caption-line"><img src="img/black-line.png" alt=""/></div>
@@ -104,7 +104,7 @@
             <div class="block-cn__text">
               <p>Игрушки и сумки</p>
               <p>Осень 2017</p>
-            </div></a></div>
+            </div></a></div><a name="top2"></a>
         <div class="blocks-cn-mob"><a href="#boy">Мальчикам</a><a href="#girl">Девочкам</a><a href="#newborns">Младенцам</a><a href="#accessories">Сумки</a></div>
       </div>
     </div>
@@ -405,8 +405,8 @@
       </div>
     </div>
     <div class="girl">
-      <div class="container"><a name="girl"></a>
-        <div class="caption-section cnsn_black">
+      <div class="container">
+        <div class="caption-section cnsn_black"><a name="girl"></a>
           <div class="caption-1">
             <p>Одежда для девочек</p>
           </div>
@@ -416,7 +416,7 @@
           </div>
         </div>
         <div class="tabs-product" id="tabs-girl">
-          <ul>
+          <ul><a class="tabs-button-up-inline" href="#top2"></a>
             <p>Для девочек</p>
             <li><a href="#tabs-0">Верхняя одежда</a></li>
             <li><a href="#tabs-1">Кофты</a></li>
@@ -1462,8 +1462,8 @@
     </div>
     <div class="boy">
       <div class="container">
-        <div class="caption-section cnsn_black">
-          <div class="caption-1"><a name="boy"></a>
+        <div class="caption-section cnsn_black"><a name="boy"></a>
+          <div class="caption-1">
             <p>Одежда для мальчиков</p>
           </div>
           <div class="caption-line"><img src="img/black-line.png" alt=""/></div>
@@ -1472,7 +1472,7 @@
           </div>
         </div>
         <div class="tabs-product" id="tabs-boy">
-          <ul>
+          <ul><a class="tabs-button-up-inline" href="#top2"></a>
             <p>Для мальчиков</p>
             <li><a href="#tabs-0">Верхняя одежда</a></li>
             <li><a href="#tabs-1">Кофты</a></li>
@@ -2518,8 +2518,8 @@
     </div>
     <div class="newborns">
       <div class="container">
-        <div class="caption-section cnsn_black">
-          <div class="caption-1"><a name="newborns"></a>
+        <div class="caption-section cnsn_black"><a name="newborns"></a>
+          <div class="caption-1">
             <p>Одежда для новорождённых</p>
           </div>
           <div class="caption-line"><img src="img/black-line.png" alt=""/></div>
@@ -2528,7 +2528,7 @@
           </div>
         </div>
         <div class="tabs-product" id="tabs-newborns">
-          <ul>
+          <ul><a class="tabs-button-up-inline" href="#top2"></a>
             <p>Для младенцев</p>
             <li><a href="#tabs-0">Верхняя одежда</a></li>
             <li><a href="#tabs-1">На выписку</a></li>
@@ -3600,8 +3600,8 @@
     </div>
     <div class="accessories">
       <div class="container">
-        <div class="caption-section cnsn_black">
-          <div class="caption-1"><a name="accessories"></a>
+        <div class="caption-section cnsn_black"><a name="accessories"></a>
+          <div class="caption-1">
             <p>Игрушки, сумки</p>
           </div>
           <div class="caption-line"><img src="img/black-line.png" alt=""/></div>
@@ -3610,7 +3610,7 @@
           </div>
         </div>
         <div class="tabs-product" id="tabs-accessories">
-          <ul>
+          <ul><a class="tabs-button-up-inline" href="#top2"></a>
             <p>Аксессуары
               <li><a href="#tabs-0">Игрушки</a></li>
               <li><a href="#tabs-1">Сумки</a></li>
@@ -4711,49 +4711,46 @@
           });
       });
     </script>
-    <!-- HelloPreload http://hello-site.ru/preloader/ -->
-    <style type="text/css">
+    <style>
       #hellopreloader > p {
-        display: none;
+          display: none;
       }
       #hellopreloader_preload {
-        display: flex;
-        position: fixed;
-        z-index: 99999;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-        width: 100vw;
-        /* min-width: 1000px; */
-        background: #9B59B6 url(http://hello-site.ru//main/images/preloads/tail-spin.svg) center center no-repeat;
-        background-size: 41px;
+          display: flex;
+          position: fixed;
+          z-index: 99999;
+          align-items: center;
+          justify-content: center;
+          height: 100vh;
+          width: 100vw;
+          /* min-width: 1000px; */
+          background: #9B59B6 url(http://hello-site.ru//main/images/preloads/tail-spin.svg) center center no-repeat;
+          background-size: 41px;
       }
     </style>
     <div id="hellopreloader">
       <div id="hellopreloader_preload"></div>
-      <p>
-        <a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a>
-      </p>
+      <p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p>
     </div>
-    <script type="text/javascript">
+    <script>
       var hellopreloader = document.getElementById("hellopreloader_preload");
-
+      
       function fadeOutnojquery(el) {
-        el.style.opacity = 1;
-        var interhellopreloader = setInterval(function () {
-          el.style.opacity = el.style.opacity - 0.05;
-          if (el.style.opacity <= 0.05) {
-            clearInterval(interhellopreloader);
-            hellopreloader.style.display = "none";
-          }
-        }, 16);
+          el.style.opacity = 1;
+          var interhellopreloader = setInterval(function () {
+              el.style.opacity = el.style.opacity - 0.05;
+              if (el.style.opacity <= 0.05) {
+              clearInterval(interhellopreloader);
+              hellopreloader.style.display = "none";
+              }
+          }, 16);
       }
+      
       window.onload = function () {
-        setTimeout(function () {
-          fadeOutnojquery(hellopreloader);
-        }, 1000);
+          setTimeout(function () {
+              fadeOutnojquery(hellopreloader);
+          }, 1000);
       };
     </script>
-    <!-- HelloPreload http://hello-site.ru/preloader/ -->
   </body>
 </html>
