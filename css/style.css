@@ -1445,6 +1445,7 @@ body .footer {
     -ms-flex-pack: distribute;
         justify-content: space-around;
     margin-bottom: 0;
+    min-height: 100%;
   }
   .banner .tracery-bottom-1 {
     display: none;
