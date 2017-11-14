@@ -7,16 +7,16 @@ $(window).load(function () {
 	});
 
 	$(function () {
-		$("#tabs-girl").tabs({
+		$(".tabs-girl").tabs({
 			active: 0
 		});
-		$("#tabs-boy").tabs({
+		$(".tabs-boy").tabs({
 			active: 0
 		});
-		$("#tabs-newborns").tabs({
+		$(".tabs-newborns").tabs({
 			active: 0
 		});
-		$("#tabs-accessories").tabs({
+		$(".tabs-accessories").tabs({
 			active: 0
 		});
 	});
